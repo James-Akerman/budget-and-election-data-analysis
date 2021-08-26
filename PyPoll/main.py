@@ -1,11 +1,13 @@
 import os
 import csv
 
+# Create voting total variables
 total_votes = 0
 Khan_votes = 0
 Correy_votes = 0
 Li_votes = 0
 O_Tooley_votes = 0
+# Create dictionary which contains the percentage of the total vote won by each candidate
 election_votes_percent_dict = {}
 
 election_path = os.path.join("Resources", "election_data.csv")
@@ -14,7 +16,6 @@ with open(election_path) as election_file:
     csv_reader = csv.reader(election_file)
     # Get the headers
     next(csv_reader)
-
     for row in csv_reader:
         # Get the total number of votes
         total_votes += 1
