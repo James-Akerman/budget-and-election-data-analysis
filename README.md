@@ -1,6 +1,6 @@
 # python-challenge
 
-This homework consisted of two tasks **PyBank** and **PyPoll**.
+This In this MONASH UNIVERSITY DATA ANALYTICS BOOT CAMP/TRILOGY EDUCATION SERVICES homework consisted of two tasks **PyBank** and **PyPoll**.
 
 ## PyBank
 
