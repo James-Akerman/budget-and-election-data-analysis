@@ -1,6 +1,6 @@
 # python-challenge
 
-This challenged consisted of two tasks **PyBank** and **PyPoll**.
+This homework consisted of two tasks **PyBank** and **PyPoll**.
 
 ## PyBank
 
