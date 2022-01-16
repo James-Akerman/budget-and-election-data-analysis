@@ -1,4 +1,6 @@
 # Budget and Election Data Analysis
+
+## Overview of the Project
 The respository analyses a budget dataset and an election dataset using python and outputs the results as text files.
 
 ### PyBank
