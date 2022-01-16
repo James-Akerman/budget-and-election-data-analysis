@@ -1,41 +1,39 @@
 # Budget and Election Data Analysis
+The respository analyses a budget dataset and an election dataset using python and outputs the results as text files.
 
+### PyBank
+The PyBank folder contains a python script for analysing the financial records of a hypothetical company. It analyses the [budget_data](PyBank/Resources/budget_data.csv) dataset to find the
+- total number of months included in the dataset
+- net total amount of "Profit/Losses" over the entire period
+- average of the changes in "Profit/Losses" over the entire period
+- greatest increase in profits (date and amount) over the entire period
+- greatest decrease in losses (date and amount) over the entire period
 
-## PyBank
+and outputs it as a text file
 
-* In this challenge, I was tasked with creating a Python script for analysing the financial records of my hypothetical company. I was given a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`.
+![financial analysis text file](images/financial-analysis.PNG)
 
-* My task was to create a Python script that analysed the records to calculated each of the following:
+### PyPoll
+The PyPoll folder contains a python script for analysing the results of a small, rural town's [election_data.csv](PyPoll/Resources/election_data.csv) including
+- the total number of votes cast
+- a complete list of candidates who received votes
+- the percentage of votes each candidate won
+- the total number of votes each candidate won
+- the winner of the election based on popular vote.
 
-  * The total number of months included in the dataset
+and outputs it as a text file
 
-  * The net total amount of "Profit/Losses" over the entire period
+![election results text file](images/election-results.PNG)
 
-  * The average of the changes in "Profit/Losses" over the entire period
+<br>
 
-  * The greatest increase in profits (date and amount) over the entire period
+## Tools/Packages used
+- Python
 
-  * The greatest decrease in losses (date and amount) over the entire period
-  
-* My script also prints the analysis to the terminal and exports a text file with the results.
+<br>
 
-## PyPoll
-
-* In this challenge, I was tasked with helping a small, rural town modernise its vote counting process.
-
-* I was given a set of poll data called [election_data.csv](https://github.com/James-Akerman/python-challenge/blob/main/PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. My task was to create a Python script that analyses the votes and calculates each of the following:
-
-  * The total number of votes cast
-
-  * A complete list of candidates who received votes
-
-  * The percentage of votes each candidate won
-
-  * The total number of votes each candidate won
-
-  * The winner of the election based on popular vote.
-
-* My script also prints the analysis to the terminal and exports a text file with the results.
-
-
-
+## How to use
+- Download the repository.
+- Open either the **PyBank** or **PyPoll** folders.
+- Open Git Bash and type `python main.py` to generate the results.
+- Open the **analysis** folder to find the outputed text file containing the results.
