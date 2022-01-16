@@ -1,10 +1,9 @@
-# python-challenge
+# Budget and Election Data Analysis
 
-This Monash University Data Analytics Boot Camp/Trilogy Education Services homework consisted of two tasks **PyBank** and **PyPoll**.
 
 ## PyBank
 
-* In this challenge, I was tasked with creating a Python script for analysing the financial records of my hypothetical company. I was given a set of financial data called [budget_data.csv](https://github.com/James-Akerman/python-challenge/blob/main/PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`.
+* In this challenge, I was tasked with creating a Python script for analysing the financial records of my hypothetical company. I was given a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`.
 
 * My task was to create a Python script that analysed the records to calculated each of the following:
 
