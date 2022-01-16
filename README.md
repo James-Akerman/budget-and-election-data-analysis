@@ -14,7 +14,7 @@ and outputs it as a text file
 ![financial analysis text file](images/financial-analysis.PNG)
 
 ### PyPoll
-The PyPoll folder contains a python script for analysing the results of a small, rural town's [election_data.csv](PyPoll/Resources/election_data.csv) including
+The PyPoll folder contains a python script for analysing the results of a small, rural town's [election](PyPoll/Resources/election_data.csv) including
 - the total number of votes cast
 - a complete list of candidates who received votes
 - the percentage of votes each candidate won
